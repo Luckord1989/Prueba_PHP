@@ -39,5 +39,7 @@
                 return false;
             }
         }
+        //Metodo para consultas
+        //Metodo para 
     }
 ?>
