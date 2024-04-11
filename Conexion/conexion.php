@@ -16,7 +16,9 @@
                     $this -> host,
                     $this -> usuario,
                     $this -> password,
-                    $this -> base_datos);
+                    $this -> base_datos) or die (
+                        "No se pudo conectar a la base de datos"
+                    );
                 //Retornamos el valor verdadero
                 return true;
             } catch (RuntimeException $th) {
